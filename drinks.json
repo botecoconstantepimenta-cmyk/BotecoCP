@@ -322,6 +322,246 @@
       "Coloque todos os ingredientes.",
       "Misture e complete com refrigerante."
     ]
+  },
+   {
+    "name": "Mar Verde",
+    "nameItalic": "Mar Verde",
+    "perfil": "Cítrico herbal",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=400",
+    "ingredientes": [
+      { "qty": "60ml", "name": "Gin" },
+      { "qty": "20ml", "name": "Curaçau Blue" },
+      { "qty": "20ml", "name": "Xarope de Açúcar" },
+      { "qty": "15ml", "name": "Cynar" },
+      { "qty": "20ml", "name": "Suco de Limão" }
+    ],
+    "preparo": [
+      "Adicione todos os ingredientes na coqueteleira com gelo.",
+      "Bata bem.",
+      "Faça dupla coagem em copo com gelo."
+    ]
+  },
+  {
+    "name": "MaraCuceva",
+    "nameItalic": "MaraCuceva",
+    "perfil": "Frutado leve",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=400",
+    "ingredientes": [
+      { "qty": "40ml", "name": "Gin" },
+      { "qty": "15ml", "name": "Xarope de Açúcar" },
+      { "qty": "25ml", "name": "Suco de Maracujá" },
+      { "qty": "Top", "name": "Cerveja" }
+    ],
+    "preparo": [
+      "Bata os ingredientes na coqueteleira com gelo (exceto a cerveja).",
+      "Faça dupla coagem em copo com gelo.",
+      "Complete com cerveja."
+    ]
+  },
+  {
+    "name": "Whisky Sour",
+    "nameItalic": "Whisky Sour",
+    "perfil": "Ácido equilibrado",
+    "copo": "Copo Baixo",
+    "foto": "https://images.unsplash.com/photo-1587223962930-cb7f31384c19?q=80&w=400",
+    "ingredientes": [
+      { "qty": "60ml", "name": "Whisky" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "20ml", "name": "Xarope de Açúcar" },
+      { "qty": "5 colheres chá", "name": "Albumina" }
+    ],
+    "preparo": [
+      "Bata tudo com gelo na coqueteleira.",
+      "Retire o gelo e bata novamente.",
+      "Sirva em copo baixo e finalize com bitter."
+    ]
+  },
+  {
+    "name": "Kamikaze",
+    "nameItalic": "Kamikaze",
+    "perfil": "Cítrico forte",
+    "copo": "Taça Cocktail",
+    "foto": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400",
+    "ingredientes": [
+      { "qty": "40ml", "name": "Vodka" },
+      { "qty": "40ml", "name": "Licor de Laranja" },
+      { "qty": "40ml", "name": "Suco de Limão" },
+      { "qty": "10ml", "name": "Xarope de Açúcar" }
+    ],
+    "preparo": [
+      "Bata todos os ingredientes com gelo.",
+      "Faça dupla coagem em taça."
+    ]
+  },
+  {
+    "name": "Demonic",
+    "nameItalic": "Demonic",
+    "perfil": "Doce picante",
+    "copo": "Taça Cocktail",
+    "foto": "https://images.unsplash.com/photo-1544145945-f90425340c7e?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Vodka" },
+      { "qty": "40ml", "name": "Xarope de Morango" },
+      { "qty": "30ml", "name": "Licor de Morango" },
+      { "qty": "1 colher café", "name": "Pimenta Dedo de Moça" }
+    ],
+    "preparo": [
+      "Bata tudo na coqueteleira com gelo.",
+      "Faça dupla coagem na taça."
+    ]
+  },
+  {
+    "name": "Blue Lady",
+    "nameItalic": "Blue Lady",
+    "perfil": "Cítrico suave",
+    "copo": "Taça Cocktail",
+    "foto": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Curaçau Blue" },
+      { "qty": "30ml", "name": "Gin" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "5 colheres chá", "name": "Albumina" }
+    ],
+    "preparo": [
+      "Bata com gelo e depois sem gelo.",
+      "Faça dupla coagem na taça."
+    ]
+  },
+  {
+    "name": "Jasmine",
+    "nameItalic": "Jasmine",
+    "perfil": "Amargo cítrico",
+    "copo": "Taça Cocktail",
+    "foto": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=400",
+    "ingredientes": [
+      { "qty": "45ml", "name": "Gin" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "10ml", "name": "Campari" },
+      { "qty": "10ml", "name": "Licor de Laranja" }
+    ],
+    "preparo": [
+      "Bata com gelo na coqueteleira.",
+      "Faça dupla coagem em taça."
+    ]
+  },
+  {
+    "name": "Pink Lemonade",
+    "nameItalic": "Pink Lemonade",
+    "perfil": "Doce refrescante",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=400",
+    "ingredientes": [
+      { "qty": "10ml", "name": "Xarope de Morango" },
+      { "qty": "15ml", "name": "Xarope de Açúcar" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "Top", "name": "Água com Gás" }
+    ],
+    "preparo": [
+      "Monte o drink no copo com gelo.",
+      "Misture e complete com água com gás."
+    ]
+  },
+  {
+    "name": "MaracuTequi",
+    "nameItalic": "MaracuTequi",
+    "perfil": "Frutado cítrico",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=400",
+    "ingredientes": [
+      { "qty": "60ml", "name": "Tequila" },
+      { "qty": "70ml", "name": "Maracujá" },
+      { "qty": "30ml", "name": "Xarope de Açúcar" },
+      { "qty": "60ml", "name": "Água com Gás" }
+    ],
+    "preparo": [
+      "Bata os ingredientes na coqueteleira.",
+      "Faça dupla coagem no copo com gelo.",
+      "Complete com água com gás."
+    ]
+  },
+  {
+    "name": "Screwdriver",
+    "nameItalic": "Screwdriver",
+    "perfil": "Cítrico simples",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1577801598362-1f58f2c7f6b1?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Vodka" },
+      { "qty": "Top", "name": "Suco de Laranja" }
+    ],
+    "preparo": [
+      "Monte no copo com gelo.",
+      "Misture suavemente."
+    ]
+  },
+  {
+    "name": "Black Russian",
+    "nameItalic": "Black Russian",
+    "perfil": "Forte amargo",
+    "copo": "Copo Baixo",
+    "foto": "https://images.unsplash.com/photo-1604908554025-4b9c0fbd2d96?q=80&w=400",
+    "ingredientes": [
+      { "qty": "60ml", "name": "Vodka" },
+      { "qty": "40ml", "name": "Licor de Café" }
+    ],
+    "preparo": [
+      "Monte no copo com gelo.",
+      "Mexa até gelar."
+    ]
+  },
+  {
+    "name": "Jambu Sour",
+    "nameItalic": "Jambu Sour",
+    "perfil": "Cítrico herbal",
+    "copo": "Copo Baixo",
+    "foto": "https://images.unsplash.com/photo-1587223962930-cb7f31384c19?q=80&w=400",
+    "ingredientes": [
+      { "qty": "60ml", "name": "Cachaça de Jambu" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "25ml", "name": "Xarope de Mel" },
+      { "qty": "5 colheres chá", "name": "Albumina" }
+    ],
+    "preparo": [
+      "Bata com gelo.",
+      "Retire o gelo e bata novamente.",
+      "Faça dupla coagem."
+    ]
+  },
+  {
+    "name": "Gin Tônica",
+    "nameItalic": "Gin Tônica",
+    "perfil": "Refrescante amargo",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Gin" },
+      { "qty": "30ml", "name": "Suco de Limão" },
+      { "qty": "20ml", "name": "Xarope de Açúcar" },
+      { "qty": "3 dashes", "name": "Bitter" }
+    ],
+    "preparo": [
+      "Monte no copo com gelo.",
+      "Misture suavemente."
+    ]
+  },
+  {
+    "name": "Batida Capeta",
+    "nameItalic": "Capeta",
+    "perfil": "Doce cremoso",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Destilado" },
+      { "qty": "60g", "name": "Fruta" },
+      { "qty": "45ml", "name": "Leite Condensado" },
+      { "qty": "Gelo", "name": "A gosto" }
+    ],
+    "preparo": [
+      "Bata tudo no liquidificador.",
+      "Decore o copo e sirva."
+    ]
   }
 ]
 

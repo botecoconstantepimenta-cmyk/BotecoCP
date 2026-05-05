@@ -1,60 +1,289 @@
 [
   {
-    "name": "Moscow Mule",
-    "nameItalic": "Mule",
-    "perfil": "Refrescante",
-    "copo": "Caneca de Cobre",
-    "foto": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=400",
+    "name": "Cosmopolitan Maracujá",
+    "nameItalic": "Cosmo",
+    "perfil": "Cítrico frutado",
+    "copo": "Taça Cocktail",
+    "foto": "",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
-      { "qty": "20ml", "name": "Suco de Limão" },
-      { "qty": "20ml", "name": "Xarope de Açúcar" },
-      { "qty": "Q.B.", "name": "Espuma de Gengibre" }
+      { "qty": "15ml", "name": "Suco de Limão" },
+      { "qty": "40ml", "name": "Maracujá" },
+      { "qty": "25ml", "name": "Licor de Laranja" },
+      { "qty": "30ml", "name": "Suco de Cranberry" }
     ],
     "preparo": [
-      "Encha a caneca de cobre com gelo moído.",
-      "Adicione a vodka, o suco de limão e o xarope de açúcar.",
-      "Misture suavemente com uma colher bailarina.",
-      "Complete o topo com a espuma de gengibre e decore com uma fatia de limão."
+      "Adicione gelo na taça.",
+      "Bata todos os ingredientes na coqueteleira.",
+      "Faça dupla coagem na taça."
     ]
   },
   {
-    "name": "Mojito André",
-    "nameItalic": "Mojito",
-    "perfil": "Cítrico e Refrescante",
+    "name": "Lagoa Azul",
+    "nameItalic": "Blue Lagoon",
+    "perfil": "Doce cítrico",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=400",
+    "foto": "",
     "ingredientes": [
-      { "qty": "50ml", "name": "Rum Branco" },
-      { "qty": "10", "name": "Folhas de Hortelã" },
-      { "qty": "1", "name": "Limão em gomos" },
-      { "qty": "2 colheres", "name": "Açúcar" },
-      { "qty": "Q.B.", "name": "Água com Gás" }
+      { "qty": "50ml", "name": "Vodka ou Cachaça" },
+      { "qty": "30ml", "name": "Curaçau Azul" },
+      { "qty": "20ml", "name": "Suco de Limão" },
+      { "qty": "Completar", "name": "Refrigerante de Limão" }
     ],
     "preparo": [
-      "Macerar levemente as folhas de hortelã com o açúcar e os gomos de limão no copo.",
-      "Adicione gelo picado até a borda.",
-      "Dose o rum branco e complete com água com gás.",
-      "Misture de baixo para cima e sirva com um ramo de hortelã."
+      "Adicione todos os ingredientes no copo com gelo.",
+      "Misture levemente."
     ]
   },
-    {
-    "name": "Carro Mule",
-    "nameItalic": "Mule",
-    "perfil": "Refrescante",
-    "copo": "Caneca de Cobre",
-    "foto": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=400",
+  {
+    "name": "Mojito",
+    "nameItalic": "Mojito",
+    "perfil": "Refrescante herbal",
+    "copo": "Copo Longo",
+    "foto": "",
     "ingredientes": [
-      { "qty": "50ml", "name": "Vodka" },
-      { "qty": "20ml", "name": "Suco de Limão" },
-      { "qty": "20ml", "name": "Xarope de Açúcar" },
-      { "qty": "Q.B.", "name": "Espuma de Gengibre" }
+      { "qty": "Q.B.", "name": "Hortelã" },
+      { "qty": "30ml", "name": "Suco de Limão" },
+      { "qty": "45ml", "name": "Rum Branco" },
+      { "qty": "Completar", "name": "Água com Gás" }
     ],
     "preparo": [
-      "Encha a caneca de cobre com gelo moído.",
-      "Adicione a vodka, o suco de limão e o xarope de açúcar.",
-      "Misture suavemente com uma colher bailarina.",
-      "Complete o topo com a espuma de gengibre e decore com uma fatia de limão."
+      "Passe hortelã na borda do copo.",
+      "Macere levemente a hortelã.",
+      "Adicione os ingredientes com gelo.",
+      "Complete com água com gás."
+    ]
+  },
+  {
+    "name": "Aperol Spritz",
+    "nameItalic": "Aperol",
+    "perfil": "Amargo cítrico",
+    "copo": "Taça Vinho",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "60ml", "name": "Aperol" },
+      { "qty": "20ml", "name": "Suco de Limão" },
+      { "qty": "90ml", "name": "Refrigerante de Laranja" },
+      { "qty": "5 dashes", "name": "Bitter" }
+    ],
+    "preparo": [
+      "Adicione todos os ingredientes no copo com gelo.",
+      "Misture suavemente."
+    ]
+  },
+  {
+    "name": "Cuba Libre",
+    "nameItalic": "Cuba",
+    "perfil": "Refrescante doce",
+    "copo": "Copo Longo",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "200ml", "name": "Coca-Cola" },
+      { "qty": "50ml", "name": "Rum" }
+    ],
+    "preparo": [
+      "Adicione tudo no copo com gelo.",
+      "Misture levemente."
+    ]
+  },
+  {
+    "name": "Margarita",
+    "nameItalic": "Margarita",
+    "perfil": "Cítrico alcoólico",
+    "copo": "Taça Margarita",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Tequila" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "25ml", "name": "Licor de Laranja" }
+    ],
+    "preparo": [
+      "Passe limão e sal na borda da taça.",
+      "Bata os ingredientes com gelo.",
+      "Faça dupla coagem na taça."
+    ]
+  },
+  {
+    "name": "Daiquiri",
+    "nameItalic": "Daiquiri",
+    "perfil": "Cítrico doce",
+    "copo": "Taça Cocktail",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Rum" },
+      { "qty": "30ml", "name": "Suco de Limão" },
+      { "qty": "15ml", "name": "Xarope de Açúcar" }
+    ],
+    "preparo": [
+      "Bata tudo na coqueteleira com gelo.",
+      "Faça dupla coagem na taça."
+    ]
+  },
+  {
+    "name": "Affogatni",
+    "nameItalic": "Affogatni",
+    "perfil": "Doce cremoso",
+    "copo": "Taça",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "40ml", "name": "Licor de Café" },
+      { "qty": "40ml", "name": "Café" },
+      { "qty": "1 bola", "name": "Sorvete de Creme" }
+    ],
+    "preparo": [
+      "Bata tudo na coqueteleira.",
+      "Coagem simples."
+    ]
+  },
+  {
+    "name": "Caipirinha Tradicional",
+    "nameItalic": "Caipi",
+    "perfil": "Cítrico forte",
+    "copo": "Copo Baixo",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "75ml", "name": "Vodka ou Cachaça" },
+      { "qty": "25ml", "name": "Xarope de Açúcar" },
+      { "qty": "1 unidade", "name": "Limão" }
+    ],
+    "preparo": [
+      "Macere o limão.",
+      "Adicione os ingredientes com gelo.",
+      "Misture."
+    ]
+  },
+  {
+    "name": "Sex on the Beach",
+    "nameItalic": "SOTB",
+    "perfil": "Doce frutado",
+    "copo": "Copo Longo",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "40ml", "name": "Vodka" },
+      { "qty": "25ml", "name": "Licor de Pêssego" },
+      { "qty": "80ml", "name": "Suco de Laranja" }
+    ],
+    "preparo": [
+      "Bata o suco separado.",
+      "Monte no copo com gelo.",
+      "Finalize com xarope de frutas vermelhas."
+    ]
+  },
+  {
+    "name": "Whisky Sour",
+    "nameItalic": "Sour",
+    "perfil": "Cítrico equilibrado",
+    "copo": "Copo Baixo",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "60ml", "name": "Whisky" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "20ml", "name": "Xarope de Açúcar" },
+      { "qty": "Q.B.", "name": "Albumina" }
+    ],
+    "preparo": [
+      "Bata com gelo.",
+      "Retire o gelo e bata novamente.",
+      "Sirva com bitter."
+    ]
+  },
+  {
+    "name": "Kamikaze",
+    "nameItalic": "Kamikaze",
+    "perfil": "Cítrico forte",
+    "copo": "Copo Baixo",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "40ml", "name": "Vodka" },
+      { "qty": "40ml", "name": "Licor de Laranja" },
+      { "qty": "40ml", "name": "Suco de Limão" },
+      { "qty": "10ml", "name": "Xarope de Açúcar" }
+    ],
+    "preparo": [
+      "Bata com gelo.",
+      "Dupla coagem no copo."
+    ]
+  },
+  {
+    "name": "Blue Lady",
+    "nameItalic": "Blue",
+    "perfil": "Cítrico suave",
+    "copo": "Taça Cocktail",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Curaçau Blue" },
+      { "qty": "30ml", "name": "Gin" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "Q.B.", "name": "Albumina" }
+    ],
+    "preparo": [
+      "Bata com gelo.",
+      "Dupla coagem."
+    ]
+  },
+  {
+    "name": "Jasmine",
+    "nameItalic": "Jasmine",
+    "perfil": "Amargo cítrico",
+    "copo": "Taça Cocktail",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "45ml", "name": "Gin" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "10ml", "name": "Campari" },
+      { "qty": "10ml", "name": "Licor de Laranja" }
+    ],
+    "preparo": [
+      "Bata com gelo.",
+      "Dupla coagem na taça."
+    ]
+  },
+  {
+    "name": "Pink Lemonade",
+    "nameItalic": "Pink",
+    "perfil": "Doce refrescante",
+    "copo": "Copo Longo",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "10ml", "name": "Xarope de Morango" },
+      { "qty": "15ml", "name": "Xarope de Açúcar" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "Completar", "name": "Água com Gás" }
+    ],
+    "preparo": [
+      "Monte no copo com gelo.",
+      "Complete com água com gás."
+    ]
+  },
+  {
+    "name": "Black Russian",
+    "nameItalic": "Black",
+    "perfil": "Forte doce",
+    "copo": "Copo Baixo",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "60ml", "name": "Vodka" },
+      { "qty": "40ml", "name": "Licor de Café" }
+    ],
+    "preparo": [
+      "Misture no copo com gelo até gelar."
+    ]
+  },
+  {
+    "name": "Screwdriver",
+    "nameItalic": "Driver",
+    "perfil": "Doce leve",
+    "copo": "Copo Longo",
+    "foto": "",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Vodka" },
+      { "qty": "Completar", "name": "Suco de Laranja" }
+    ],
+    "preparo": [
+      "Monte no copo com gelo.",
+      "Misture."
     ]
   }
+]
 ]

@@ -157,6 +157,171 @@
       "Adicione os ingredientes na taça.",
       "Misture levemente antes de servir."
     ]
+  },
+  {
+    "name": "Caipirinha Tradicional",
+    "nameItalic": "Caipi",
+    "perfil": "Cítrico doce",
+    "copo": "Copo Baixo",
+    "foto": "https://images.unsplash.com/photo-1625944525533-473f1d3c79a3?q=80&w=400",
+    "ingredientes": [
+      { "qty": "75ml", "name": "Vodka ou Cachaça" },
+      { "qty": "25ml", "name": "Xarope de Açúcar" },
+      { "qty": "1 unidade", "name": "Limão Tahiti" }
+    ],
+    "preparo": [
+      "Corte o limão e macere no copo.",
+      "Adicione o xarope de açúcar.",
+      "Complete com gelo e a bebida alcoólica.",
+      "Misture bem."
+    ]
+  },
+  {
+    "name": "Caipirinha de Morango",
+    "nameItalic": "Caipi Morango",
+    "perfil": "Doce frutado",
+    "copo": "Copo Baixo",
+    "foto": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?q=80&w=400",
+    "ingredientes": [
+      { "qty": "75ml", "name": "Vodka ou Cachaça" },
+      { "qty": "25ml", "name": "Xarope de Açúcar" },
+      { "qty": "5 unidades", "name": "Morangos" },
+      { "qty": "25ml", "name": "Xarope de Morango" }
+    ],
+    "preparo": [
+      "Macere os morangos no copo.",
+      "Adicione o xarope de açúcar.",
+      "Complete com gelo e álcool.",
+      "Misture bem."
+    ]
+  },
+  {
+    "name": "Caipirinha de Bergamota",
+    "nameItalic": "Caipi Bergamota",
+    "perfil": "Cítrico suave",
+    "copo": "Copo Baixo",
+    "foto": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=400",
+    "ingredientes": [
+      { "qty": "75ml", "name": "Vodka ou Cachaça" },
+      { "qty": "25ml", "name": "Xarope de Açúcar" },
+      { "qty": "1/2 unidade", "name": "Limão" },
+      { "qty": "4 gomos", "name": "Bergamota" }
+    ],
+    "preparo": [
+      "Macere as frutas no copo.",
+      "Adicione o xarope de açúcar.",
+      "Complete com gelo e álcool.",
+      "Misture bem."
+    ]
+  },
+  {
+    "name": "Saquê com Sabor",
+    "nameItalic": "Saquê",
+    "perfil": "Leve doce",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1617196035154-1e1f0f1ca5d4?q=80&w=400",
+    "ingredientes": [
+      { "qty": "75ml", "name": "Saquê" },
+      { "qty": "25ml", "name": "Xarope de Sabor" },
+      { "qty": "Top", "name": "Água Mineral" }
+    ],
+    "preparo": [
+      "Adicione gelo ao copo.",
+      "Coloque todos os ingredientes.",
+      "Misture suavemente."
+    ]
+  },
+  {
+    "name": "Absprite",
+    "nameItalic": "Absprite",
+    "perfil": "Refrescante cítrico",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Vodka" },
+      { "qty": "10ml", "name": "Xarope de Açúcar" },
+      { "qty": "10ml", "name": "Suco de Limão" },
+      { "qty": "Top", "name": "Refrigerante de Limão" }
+    ],
+    "preparo": [
+      "Monte o drink no copo com gelo.",
+      "Adicione todos os ingredientes.",
+      "Misture suavemente."
+    ]
+  },
+  {
+    "name": "Gaudério",
+    "nameItalic": "Gaudério",
+    "perfil": "Cítrico intenso",
+    "copo": "Copo Baixo",
+    "foto": "https://images.unsplash.com/photo-1605270012917-bf157c5a9541?q=80&w=400",
+    "ingredientes": [
+      { "qty": "40ml", "name": "Vodka" },
+      { "qty": "40ml", "name": "Licor de Butiá" },
+      { "qty": "40ml", "name": "Suco de Limão" },
+      { "qty": "10ml", "name": "Xarope de Açúcar" }
+    ],
+    "preparo": [
+      "Adicione todos os ingredientes na coqueteleira com gelo.",
+      "Bata bem.",
+      "Sirva em copo baixo com gelo."
+    ]
+  },
+  {
+    "name": "Red Fly",
+    "nameItalic": "Red Fly",
+    "perfil": "Doce amargo",
+    "copo": "Taça Cocktail",
+    "foto": "https://images.unsplash.com/photo-1544145945-f90425340c7e?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Vodka" },
+      { "qty": "20ml", "name": "Suco de Limão" },
+      { "qty": "20ml", "name": "Xarope de Açúcar" },
+      { "qty": "30ml", "name": "Campari ou Aperol" },
+      { "qty": "1 unidade", "name": "Morango" },
+      { "qty": "5 colheres chá", "name": "Albumina" }
+    ],
+    "preparo": [
+      "Macere o morango com a vodka.",
+      "Bata sem gelo e depois com gelo.",
+      "Faça dupla coagem na taça."
+    ]
+  },
+  {
+    "name": "Sex on the Beach",
+    "nameItalic": "Sex on the Beach",
+    "perfil": "Doce frutado",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1582578598774-a377d4b322c6?q=80&w=400",
+    "ingredientes": [
+      { "qty": "40ml", "name": "Vodka" },
+      { "qty": "25ml", "name": "Licor de Pêssego" },
+      { "qty": "80ml", "name": "Suco de Laranja" },
+      { "qty": "10ml", "name": "Xarope de Frutas Vermelhas" }
+    ],
+    "preparo": [
+      "Bata o suco sem gelo.",
+      "Monte o drink com gelo no copo.",
+      "Finalize com o xarope."
+    ]
+  },
+  {
+    "name": "Cynar Fizz",
+    "nameItalic": "Cynar Fizz",
+    "perfil": "Amargo refrescante",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Cynar" },
+      { "qty": "20ml", "name": "Cachaça" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "Top", "name": "Refrigerante de Limão" }
+    ],
+    "preparo": [
+      "Adicione gelo ao copo.",
+      "Coloque todos os ingredientes.",
+      "Misture e complete com refrigerante."
+    ]
   }
 ]
-]
+

@@ -97,7 +97,7 @@
 
     <div id="loader">
         <div class="spinner"></div>
-        <p style="font-style: italic; opacity: 0.7;">Conectando ao Alambique da Luana...</p>
+        <p style="font-style: italic; opacity: 0.7;">Buscando as receitas no GitHub...</p>
     </div>
 
     <div id="main-content" style="display: none;">
@@ -121,21 +121,25 @@
 </div>
 
 <script>
-    // Link do seu Google Apps Script que você já validou
-    const API_URL = "https://script.google.com/macros/s/AKfycbx66ZYCGhPaauK_vpICmSYO19njRzDiR7Sj06zpmbE2T6psqx1m49hZb4EntAYrk9_xEg/exec";
+    // Link RAW do seu arquivo drinks.json no GitHub
+    const API_URL = "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/main/drinks.json";
 
     let drinks = [];
     let currentIdx = 0;
 
     async function fetchDrinks() {
         try {
-            // 'redirect: follow' é vital para o GitHub Pages conseguir ler o Google Scripts
-            const response = await fetch(API_URL, {
+            // Adicionado carimbo de tempo para evitar cache no APK
+            const cacheBuster = `?_nocache=${new Date().getTime()}`;
+            
+            const response = await fetch(API_URL + cacheBuster, {
                 method: 'GET',
-                redirect: 'follow'
+                headers: {
+                    'Accept': 'application/json'
+                }
             });
             
-            if (!response.ok) throw new Error("Erro na rede");
+            if (!response.ok) throw new Error("Erro ao carregar o arquivo JSON do GitHub");
 
             drinks = await response.json();
             
@@ -144,13 +148,14 @@
                 document.getElementById('main-content').style.display = 'block';
                 renderDrink();
             } else {
-                throw new Error("Planilha vazia");
+                throw new Error("O arquivo JSON está vazio");
             }
         } catch (error) {
-            console.error(error);
+            console.error("Detalhes do erro:", error);
             document.getElementById('loader').innerHTML = `
                 <p style="color:var(--red); font-weight:bold;">Ops! Erro de conexão.</p>
-                <p style="font-size:12px; margin-top:10px;">Verifique se a implantação do Google está como 'Qualquer pessoa'.[cite: 1]</p>
+                <p style="font-size:12px; margin-top:10px;">Não foi possível carregar as receitas do GitHub.</p>
+                <p style="font-size:10px; opacity:0.6; margin-top:5px;">Verifique se o arquivo drinks.json existe no repositório.</p>
             `;
         }
     }
@@ -158,6 +163,7 @@
     function renderDrink() {
         const d = drinks[currentIdx];
         
+        // Aplica o destaque em itálico se configurado
         if (d.nameItalic && d.name.includes(d.nameItalic)) {
             const parts = d.name.split(d.nameItalic);
             document.getElementById('drink-name').innerHTML = `${parts[0]}<em>${d.nameItalic}</em>${parts[1] || ''}`;
@@ -165,23 +171,37 @@
             document.getElementById('drink-name').textContent = d.name;
         }
 
+        // Garante suporte caso falte alguma foto ou informação
         document.getElementById('drink-img').src = d.foto || 'https://via.placeholder.com/400x300?text=Sem+Foto';
-        document.getElementById('drink-tag').textContent = `${d.copo} • ${d.perfil}`;
+        
+        const copo = d.copo || 'Copo Padrão';
+        const perfil = d.perfil || 'Especial';
+        document.getElementById('drink-tag').textContent = `${copo} • ${perfil}`;
 
+        // Renderização dos Ingredientes
         const ingContainer = document.getElementById('ingredients-list');
-        ingContainer.innerHTML = d.ingredientes.map(i => `
-            <div class="ingredient-row">
-                <span style="color:var(--red); font-weight:bold; margin-right:8px;">${i.qty}</span> ${i.name}
-            </div>
-        `).join('');
+        if (d.ingredientes && d.ingredientes.length > 0) {
+            ingContainer.innerHTML = d.ingredientes.map(i => `
+                <div class="ingredient-row">
+                    <span style="color:var(--red); font-weight:bold; margin-right:8px;">${i.qty || ''}</span> ${i.name || ''}
+                </div>
+            `).join('');
+        } else {
+            ingContainer.innerHTML = '<div class="ingredient-row">Receita secreta!</div>';
+        }
 
+        // Renderização do Modo de Preparo
         const stepContainer = document.getElementById('preparo-steps');
-        stepContainer.innerHTML = d.preparo.map((step, index) => `
-            <div class="step">
-                <div class="step-num">${index + 1}</div>
-                <div>${step}</div>
-            </div>
-        `).join('');
+        if (d.preparo && d.preparo.length > 0) {
+            stepContainer.innerHTML = d.preparo.map((step, index) => `
+                <div class="step">
+                    <div class="step-num">${index + 1}</div>
+                    <div>${step}</div>
+                </div>
+            `).join('');
+        } else {
+            stepContainer.innerHTML = '<div class="step">Misture bem os ingredientes com gelo e sirva!</div>';
+        }
     }
 
     function changeDrink(step) {
@@ -192,6 +212,7 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    // Inicia a aplicação buscando as receitas do GitHub
     fetchDrinks();
 </script>
 

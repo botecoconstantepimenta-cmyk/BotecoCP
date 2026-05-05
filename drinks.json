@@ -37,5 +37,24 @@
       "Dose o rum branco e complete com água com gás.",
       "Misture de baixo para cima e sirva com um ramo de hortelã."
     ]
+  },
+    {
+    "name": "Carro Mule",
+    "nameItalic": "Mule",
+    "perfil": "Refrescante",
+    "copo": "Caneca de Cobre",
+    "foto": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Vodka" },
+      { "qty": "20ml", "name": "Suco de Limão" },
+      { "qty": "20ml", "name": "Xarope de Açúcar" },
+      { "qty": "Q.B.", "name": "Espuma de Gengibre" }
+    ],
+    "preparo": [
+      "Encha a caneca de cobre com gelo moído.",
+      "Adicione a vodka, o suco de limão e o xarope de açúcar.",
+      "Misture suavemente com uma colher bailarina.",
+      "Complete o topo com a espuma de gengibre e decore com uma fatia de limão."
+    ]
   }
 ]

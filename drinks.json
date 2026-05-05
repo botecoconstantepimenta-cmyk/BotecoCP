@@ -1,220 +1,41 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boteco CP - Cloud</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --paper: #f0e6d0;
-            --paper-dark: #d4b896;
-            --ink: #1a0f07;
-            --ink-soft: #3d2b1f;
-            --amber: #c8730a;
-            --amber-light: #f39c12;
-            --red: #8b1c1c;
-            --cream: #faf5ec;
-        }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-
-        body {
-            background: #0d0a08;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            min-height: 100vh;
-            padding: 30px 16px;
-            font-family: 'DM Sans', sans-serif;
-        }
-
-        .app {
-            width: 100%;
-            max-width: 390px;
-            background: var(--paper);
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-            border-radius: 24px;
-            box-shadow: 0 30px 80px rgba(0,0,0,0.7);
-            overflow: hidden;
-            position: relative;
-            min-height: 600px;
-        }
-
-        .header {
-            background: var(--ink);
-            padding: 22px 24px 18px;
-            position: relative;
-            text-align: center;
-        }
-        .header::after {
-            content: '';
-            position: absolute;
-            bottom: 0; left: 0; right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--red), var(--amber), var(--red));
-        }
-        .brand-name { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--amber-light); text-transform: uppercase; letter-spacing: 2px; }
-
-        #loader {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 100px 20px;
-            color: var(--ink);
-            text-align: center;
-        }
-        .spinner { width: 40px; height: 40px; border: 4px solid var(--paper-dark); border-top: 4px solid var(--red); border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 20px; }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        .drink-photo { width: 100%; height: 250px; object-fit: cover; border-bottom: 2px solid var(--paper-dark); }
-        .drink-info { padding: 25px; }
-        .drink-title { font-family: 'Playfair Display', serif; font-size: 32px; color: var(--ink); margin-bottom: 8px; line-height: 1.1; }
-        .drink-title em { color: var(--amber); font-style: italic; }
-        
-        .chip { display: inline-block; background: rgba(26,15,7,0.07); padding: 5px 12px; border-radius: 8px; font-size: 12px; color: var(--amber); margin-bottom: 15px; font-weight: bold; text-transform: uppercase; }
-        
-        .section-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--red); margin: 25px 0 12px; font-weight: 800; border-bottom: 1px solid rgba(139, 28, 28, 0.2); padding-bottom: 4px; }
-        .ingredient-row { padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.05); font-size: 15px; color: var(--ink-soft); }
-        .step { display: flex; gap: 12px; margin-bottom: 15px; font-size: 14px; line-height: 1.6; color: var(--ink-soft); }
-        .step-num { background: var(--ink); color: var(--amber-light); min-width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; margin-top: 2px; }
-
-        .nav-buttons { display: flex; gap: 12px; padding: 20px; background: rgba(0,0,0,0.03); border-top: 1px solid var(--paper-dark); }
-        .btn { flex: 1; padding: 16px; border: none; border-radius: 14px; font-family: inherit; font-weight: bold; cursor: pointer; transition: 0.2s; font-size: 14px; text-transform: uppercase; }
-        .btn-prev { background: var(--ink); color: white; }
-        .btn-next { background: var(--amber); color: var(--ink); }
-        .btn:active { transform: scale(0.96); opacity: 0.9; }
-    </style>
-</head>
-<body>
-
-<div class="app">
-    <div class="header">
-        <div class="brand-name">Boteco C & P</div>
-        <div style="color: rgba(255,255,255,0.4); font-size: 10px; margin-top: 5px; font-weight: 300;">MENU SINCRONIZADO</div>
-    </div>
-
-    <div id="loader">
-        <div class="spinner"></div>
-        <p style="font-style: italic; opacity: 0.7;">Buscando as receitas no GitHub...</p>
-    </div>
-
-    <div id="main-content" style="display: none;">
-        <img id="drink-img" class="drink-photo" src="" alt="Foto do Drink">
-        <div class="drink-info">
-            <div id="drink-tag" class="chip"></div>
-            <h1 id="drink-name" class="drink-title"></h1>
-            
-            <div class="section-title">Ingredientes</div>
-            <div id="ingredients-list"></div>
-
-            <div class="section-title">Modo de Preparo</div>
-            <div id="preparo-steps"></div>
-        </div>
-
-        <div class="nav-buttons">
-            <button class="btn btn-prev" onclick="changeDrink(-1)">Anterior</button>
-            <button class="btn btn-next" onclick="changeDrink(1)">Próximo</button>
-        </div>
-    </div>
-</div>
-
-<script>
-    // Link RAW do seu arquivo drinks.json no GitHub
-    const API_URL = "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/main/drinks.json";
-
-    let drinks = [];
-    let currentIdx = 0;
-
-    async function fetchDrinks() {
-        try {
-            // Adicionado carimbo de tempo para evitar cache no APK
-            const cacheBuster = `?_nocache=${new Date().getTime()}`;
-            
-            const response = await fetch(API_URL + cacheBuster, {
-                method: 'GET',
-                headers: {
-                    'Accept': 'application/json'
-                }
-            });
-            
-            if (!response.ok) throw new Error("Erro ao carregar o arquivo JSON do GitHub");
-
-            drinks = await response.json();
-            
-            if (drinks && drinks.length > 0) {
-                document.getElementById('loader').style.display = 'none';
-                document.getElementById('main-content').style.display = 'block';
-                renderDrink();
-            } else {
-                throw new Error("O arquivo JSON está vazio");
-            }
-        } catch (error) {
-            console.error("Detalhes do erro:", error);
-            document.getElementById('loader').innerHTML = `
-                <p style="color:var(--red); font-weight:bold;">Ops! Erro de conexão.</p>
-                <p style="font-size:12px; margin-top:10px;">Não foi possível carregar as receitas do GitHub.</p>
-                <p style="font-size:10px; opacity:0.6; margin-top:5px;">Verifique se o arquivo drinks.json existe no repositório.</p>
-            `;
-        }
-    }
-
-    function renderDrink() {
-        const d = drinks[currentIdx];
-        
-        // Aplica o destaque em itálico se configurado
-        if (d.nameItalic && d.name.includes(d.nameItalic)) {
-            const parts = d.name.split(d.nameItalic);
-            document.getElementById('drink-name').innerHTML = `${parts[0]}<em>${d.nameItalic}</em>${parts[1] || ''}`;
-        } else {
-            document.getElementById('drink-name').textContent = d.name;
-        }
-
-        // Garante suporte caso falte alguma foto ou informação
-        document.getElementById('drink-img').src = d.foto || 'https://via.placeholder.com/400x300?text=Sem+Foto';
-        
-        const copo = d.copo || 'Copo Padrão';
-        const perfil = d.perfil || 'Especial';
-        document.getElementById('drink-tag').textContent = `${copo} • ${perfil}`;
-
-        // Renderização dos Ingredientes
-        const ingContainer = document.getElementById('ingredients-list');
-        if (d.ingredientes && d.ingredientes.length > 0) {
-            ingContainer.innerHTML = d.ingredientes.map(i => `
-                <div class="ingredient-row">
-                    <span style="color:var(--red); font-weight:bold; margin-right:8px;">${i.qty || ''}</span> ${i.name || ''}
-                </div>
-            `).join('');
-        } else {
-            ingContainer.innerHTML = '<div class="ingredient-row">Receita secreta!</div>';
-        }
-
-        // Renderização do Modo de Preparo
-        const stepContainer = document.getElementById('preparo-steps');
-        if (d.preparo && d.preparo.length > 0) {
-            stepContainer.innerHTML = d.preparo.map((step, index) => `
-                <div class="step">
-                    <div class="step-num">${index + 1}</div>
-                    <div>${step}</div>
-                </div>
-            `).join('');
-        } else {
-            stepContainer.innerHTML = '<div class="step">Misture bem os ingredientes com gelo e sirva!</div>';
-        }
-    }
-
-    function changeDrink(step) {
-        currentIdx += step;
-        if (currentIdx >= drinks.length) currentIdx = 0;
-        if (currentIdx < 0) currentIdx = drinks.length - 1;
-        renderDrink();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    // Inicia a aplicação buscando as receitas do GitHub
-    fetchDrinks();
-</script>
-
-</body>
-</html>
+[
+  {
+    "name": "Moscow Mule",
+    "nameItalic": "Mule",
+    "perfil": "Refrescante",
+    "copo": "Caneca de Cobre",
+    "foto": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Vodka" },
+      { "qty": "20ml", "name": "Suco de Limão" },
+      { "qty": "20ml", "name": "Xarope de Açúcar" },
+      { "qty": "Q.B.", "name": "Espuma de Gengibre" }
+    ],
+    "preparo": [
+      "Encha a caneca de cobre com gelo moído.",
+      "Adicione a vodka, o suco de limão e o xarope de açúcar.",
+      "Misture suavemente com uma colher bailarina.",
+      "Complete o topo com a espuma de gengibre e decore com uma fatia de limão."
+    ]
+  },
+  {
+    "name": "Mojito Clássico",
+    "nameItalic": "Mojito",
+    "perfil": "Cítrico e Refrescante",
+    "copo": "Copo Longo",
+    "foto": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=400",
+    "ingredientes": [
+      { "qty": "50ml", "name": "Rum Branco" },
+      { "qty": "10", "name": "Folhas de Hortelã" },
+      { "qty": "1", "name": "Limão em gomos" },
+      { "qty": "2 colheres", "name": "Açúcar" },
+      { "qty": "Q.B.", "name": "Água com Gás" }
+    ],
+    "preparo": [
+      "Macerar levemente as folhas de hortelã com o açúcar e os gomos de limão no copo.",
+      "Adicione gelo picado até a borda.",
+      "Dose o rum branco e complete com água com gás.",
+      "Misture de baixo para cima e sirva com um ramo de hortelã."
+    ]
+  }
+]

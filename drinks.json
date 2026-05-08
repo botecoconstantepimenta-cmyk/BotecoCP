@@ -4,7 +4,7 @@
     "nameItalic": "Cosmo Maracujá",
     "perfil": "Cítrico frutado",
     "copo": "Taça Cocktail",
-    "foto": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte%20Cosmopolitan%20Maracuj%C3%A1.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "15ml", "name": "Suco de Limão" },

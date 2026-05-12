@@ -41,7 +41,7 @@
     "nameItalic": "Mojito",
     "perfil": "Refrescante cítrico",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1582578598774-a377d4b322c6?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Mojito.png",
     "ingredientes": [
       { "qty": "8 folhas", "name": "Hortelã" },
       { "qty": "30ml", "name": "Suco de Limão" },
@@ -78,7 +78,7 @@
     "nameItalic": "Cuba",
     "perfil": "Refrescante doce",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1625943553852-781c6dd46faa?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Cuba%20Libre.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Rum" },
       { "qty": "25ml", "name": "Suco de Limão" },
@@ -272,7 +272,7 @@
     "nameItalic": "Red Fly",
     "perfil": "Doce amargo",
     "copo": "Taça Cocktail",
-    "foto": "https://images.unsplash.com/photo-1544145945-f90425340c7e?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Red%20Flay.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "20ml", "name": "Suco de Limão" },
@@ -328,7 +328,7 @@
     "nameItalic": "Mar Verde",
     "perfil": "Cítrico herbal",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Mar%20Verde.png",
     "ingredientes": [
       { "qty": "60ml", "name": "Gin" },
       { "qty": "20ml", "name": "Curaçau Blue" },
@@ -400,7 +400,7 @@
     "nameItalic": "Demonic",
     "perfil": "Doce picante",
     "copo": "Taça Cocktail",
-    "foto": "https://images.unsplash.com/photo-1544145945-f90425340c7e?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Demonic.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "40ml", "name": "Xarope de Morango" },
@@ -417,7 +417,7 @@
     "nameItalic": "Blue Lady",
     "perfil": "Cítrico suave",
     "copo": "Taça Cocktail",
-    "foto": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Blue%20Lady.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Curaçau Blue" },
       { "qty": "30ml", "name": "Gin" },
@@ -468,7 +468,7 @@
     "nameItalic": "MaracuTequi",
     "perfil": "Frutado cítrico",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_MaracuTequila.png",
     "ingredientes": [
       { "qty": "60ml", "name": "Tequila" },
       { "qty": "70ml", "name": "Maracujá" },

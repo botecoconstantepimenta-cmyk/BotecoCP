@@ -5,7 +5,7 @@
   "perfil": "Cítrico frutado",
   "copo": "Taça Cocktail",
   "Categoria": "Vodka",  
-  "foto": "",
+  "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Fundo.png",
   "ingredientes": [
     { "qty": "50ml", "name": "Vodka" },
     { "qty": "15ml", "name": "Suco de Limão" },

@@ -1,23 +1,24 @@
 [
-  {
-    "name": "Cosmopolitan Maracujá",
-    "nameItalic": "Cosmo Maracujá",
-    "perfil": "Cítrico frutado",
-    "copo": "Taça Cocktail",
-    "foto": "",
-    "ingredientes": [
-      { "qty": "50ml", "name": "Vodka" },
-      { "qty": "15ml", "name": "Suco de Limão" },
-      { "qty": "40ml", "name": "Maracujá" },
-      { "qty": "25ml", "name": "Licor de Laranja" },
-      { "qty": "30ml", "name": "Suco de Cranberry" }
-    ],
-    "preparo": [
-      "Adicione gelo em uma taça.",
-      "Coloque todos os ingredientes na coqueteleira.",
-      "Bata bem e faça dupla coagem na taça."
-    ]
-  },
+{
+  "categoria": "Autorais",
+  "name": "Cosmopolitan Maracujá",
+  "nameItalic": "Cosmo Maracujá",
+  "perfil": "Cítrico frutado",
+  "copo": "Taça Cocktail",
+  "foto": "",
+  "ingredientes": [
+    { "qty": "50ml", "name": "Vodka" },
+    { "qty": "15ml", "name": "Suco de Limão" },
+    { "qty": "40ml", "name": "Maracujá" },
+    { "qty": "25ml", "name": "Licor de Laranja" },
+    { "qty": "30ml", "name": "Suco de Cranberry" }
+  ],
+  "preparo": [
+    "Adicione gelo em uma taça.",
+    "Coloque todos os ingredientes na coqueteleira.",
+    "Bata bem e faça dupla coagem na taça."
+  ]
+},
   {
     "name": "Lagoa Azul",
     "nameItalic": "Blue Lagoon",

@@ -200,7 +200,7 @@
     "nameItalic": "Caipi Bergamota",
     "perfil": "Cítrico suave",
     "copo": "Copo Baixo",
-    "foto": "github.com/botecoconstantepimenta-cmyk/BotecoCP/blob/main/Encarte_Caipirinha%20de%20Berga.png?raw=true",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Caipirinha%20de%20Berga.png",
     "ingredientes": [
       { "qty": "75ml", "name": "Vodka ou Cachaça" },
       { "qty": "25ml", "name": "Xarope de Açúcar" },

@@ -4,7 +4,7 @@
     "nameItalic": "Cosmo Maracujá",
     "perfil": "Cítrico frutado",
     "copo": "Taça Cocktail",
-    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte%20Cosmopolitan%20Maracuj%C3%A1.png",
+    "foto": "",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "15ml", "name": "Suco de Limão" },
@@ -23,7 +23,7 @@
     "nameItalic": "Blue Lagoon",
     "perfil": "Doce cítrico",
     "copo": "Copo Longo",
-    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte%20Lago%20Azul.png",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Lagoa%20Azul.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka ou Cachaça" },
       { "qty": "30ml", "name": "Curaçau Blue" },
@@ -60,7 +60,7 @@
     "nameItalic": "Aperol",
     "perfil": "Amargo refrescante",
     "copo": "Taça Vinho",
-    "foto": "https://images.unsplash.com/photo-1595977437232-9fbc1f4c8f76?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Aperol.png",
     "ingredientes": [
       { "qty": "60ml", "name": "Aperol" },
       { "qty": "20ml", "name": "Suco de Limão" },
@@ -95,7 +95,7 @@
     "nameItalic": "Margarita",
     "perfil": "Cítrico forte",
     "copo": "Taça Margarita",
-    "foto": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Margarita.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Tequila" },
       { "qty": "25ml", "name": "Suco de Limão" },
@@ -112,7 +112,7 @@
     "nameItalic": "Daiquiri",
     "perfil": "Cítrico equilibrado",
     "copo": "Taça Cocktail",
-    "foto": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Daiquiri.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Rum" },
       { "qty": "30ml", "name": "Suco de Limão" },
@@ -129,7 +129,7 @@
     "nameItalic": "Mule",
     "perfil": "Refrescante picante",
     "copo": "Caneca de Cobre",
-    "foto": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Moscouw%20Mule.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "25ml", "name": "Suco de Limão" },
@@ -147,7 +147,7 @@
     "nameItalic": "Affogato",
     "perfil": "Doce intenso",
     "copo": "Taça Sobremesa",
-    "foto": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Affogatini.png",
     "ingredientes": [
       { "qty": "40ml", "name": "Licor de Café" },
       { "qty": "40ml", "name": "Café" },
@@ -163,7 +163,7 @@
     "nameItalic": "Caipi",
     "perfil": "Cítrico doce",
     "copo": "Copo Baixo",
-    "foto": "https://images.unsplash.com/photo-1625944525533-473f1d3c79a3?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "75ml", "name": "Vodka ou Cachaça" },
       { "qty": "25ml", "name": "Xarope de Açúcar" },
@@ -181,7 +181,7 @@
     "nameItalic": "Caipi Morango",
     "perfil": "Doce frutado",
     "copo": "Copo Baixo",
-    "foto": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "75ml", "name": "Vodka ou Cachaça" },
       { "qty": "25ml", "name": "Xarope de Açúcar" },
@@ -200,7 +200,7 @@
     "nameItalic": "Caipi Bergamota",
     "perfil": "Cítrico suave",
     "copo": "Copo Baixo",
-    "foto": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=400",
+    "foto": "github.com/botecoconstantepimenta-cmyk/BotecoCP/blob/main/Encarte_Caipirinha%20de%20Berga.png?raw=true",
     "ingredientes": [
       { "qty": "75ml", "name": "Vodka ou Cachaça" },
       { "qty": "25ml", "name": "Xarope de Açúcar" },
@@ -219,7 +219,7 @@
     "nameItalic": "Saquê",
     "perfil": "Leve doce",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1617196035154-1e1f0f1ca5d4?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "75ml", "name": "Saquê" },
       { "qty": "25ml", "name": "Xarope de Sabor" },
@@ -236,7 +236,7 @@
     "nameItalic": "Absprite",
     "perfil": "Refrescante cítrico",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Absprite.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "10ml", "name": "Xarope de Açúcar" },
@@ -254,7 +254,7 @@
     "nameItalic": "Gaudério",
     "perfil": "Cítrico intenso",
     "copo": "Copo Baixo",
-    "foto": "https://images.unsplash.com/photo-1605270012917-bf157c5a9541?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Gauderio.png",
     "ingredientes": [
       { "qty": "40ml", "name": "Vodka" },
       { "qty": "40ml", "name": "Licor de Butiá" },
@@ -272,7 +272,7 @@
     "nameItalic": "Red Fly",
     "perfil": "Doce amargo",
     "copo": "Taça Cocktail",
-    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Red%20Flay.png",
+    "foto": "",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "20ml", "name": "Suco de Limão" },
@@ -292,7 +292,7 @@
     "nameItalic": "Sex on the Beach",
     "perfil": "Doce frutado",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1582578598774-a377d4b322c6?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Sex%20on%20The%20Beach.png",
     "ingredientes": [
       { "qty": "40ml", "name": "Vodka" },
       { "qty": "25ml", "name": "Licor de Pêssego" },
@@ -310,7 +310,7 @@
     "nameItalic": "Cynar Fizz",
     "perfil": "Amargo refrescante",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Cynar%20Fizz.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Cynar" },
       { "qty": "20ml", "name": "Cachaça" },
@@ -347,7 +347,7 @@
     "nameItalic": "MaraCuceva",
     "perfil": "Frutado leve",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "40ml", "name": "Gin" },
       { "qty": "15ml", "name": "Xarope de Açúcar" },
@@ -365,7 +365,7 @@
     "nameItalic": "Whisky Sour",
     "perfil": "Ácido equilibrado",
     "copo": "Copo Baixo",
-    "foto": "https://images.unsplash.com/photo-1587223962930-cb7f31384c19?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Whisky%20Sour.png",
     "ingredientes": [
       { "qty": "60ml", "name": "Whisky" },
       { "qty": "25ml", "name": "Suco de Limão" },
@@ -383,7 +383,7 @@
     "nameItalic": "Kamikaze",
     "perfil": "Cítrico forte",
     "copo": "Taça Cocktail",
-    "foto": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Kamikaze.png",
     "ingredientes": [
       { "qty": "40ml", "name": "Vodka" },
       { "qty": "40ml", "name": "Licor de Laranja" },
@@ -400,7 +400,7 @@
     "nameItalic": "Demonic",
     "perfil": "Doce picante",
     "copo": "Taça Cocktail",
-    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Demonic.png",
+    "foto": "",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "40ml", "name": "Xarope de Morango" },
@@ -434,7 +434,7 @@
     "nameItalic": "Jasmine",
     "perfil": "Amargo cítrico",
     "copo": "Taça Cocktail",
-    "foto": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Jasmine.png",
     "ingredientes": [
       { "qty": "45ml", "name": "Gin" },
       { "qty": "25ml", "name": "Suco de Limão" },
@@ -451,7 +451,7 @@
     "nameItalic": "Pink Lemonade",
     "perfil": "Doce refrescante",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=400",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Pink%20Lemonade.png",
     "ingredientes": [
       { "qty": "10ml", "name": "Xarope de Morango" },
       { "qty": "15ml", "name": "Xarope de Açúcar" },
@@ -468,7 +468,7 @@
     "nameItalic": "MaracuTequi",
     "perfil": "Frutado cítrico",
     "copo": "Copo Longo",
-    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_MaracuTequila.png",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_MaracuTequi.png",
     "ingredientes": [
       { "qty": "60ml", "name": "Tequila" },
       { "qty": "70ml", "name": "Maracujá" },
@@ -486,7 +486,7 @@
     "nameItalic": "Screwdriver",
     "perfil": "Cítrico simples",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1577801598362-1f58f2c7f6b1?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "Top", "name": "Suco de Laranja" }
@@ -501,7 +501,7 @@
     "nameItalic": "Black Russian",
     "perfil": "Forte amargo",
     "copo": "Copo Baixo",
-    "foto": "https://images.unsplash.com/photo-1604908554025-4b9c0fbd2d96?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "60ml", "name": "Vodka" },
       { "qty": "40ml", "name": "Licor de Café" }
@@ -516,7 +516,7 @@
     "nameItalic": "Jambu Sour",
     "perfil": "Cítrico herbal",
     "copo": "Copo Baixo",
-    "foto": "https://images.unsplash.com/photo-1587223962930-cb7f31384c19?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "60ml", "name": "Cachaça de Jambu" },
       { "qty": "25ml", "name": "Suco de Limão" },
@@ -534,7 +534,7 @@
     "nameItalic": "Gin Tônica",
     "perfil": "Refrescante amargo",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "50ml", "name": "Gin" },
       { "qty": "30ml", "name": "Suco de Limão" },
@@ -551,7 +551,7 @@
     "nameItalic": "Capeta",
     "perfil": "Doce cremoso",
     "copo": "Copo Longo",
-    "foto": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=400",
+    "foto": "",
     "ingredientes": [
       { "qty": "50ml", "name": "Destilado" },
       { "qty": "60g", "name": "Fruta" },

@@ -4,7 +4,7 @@
   "nameItalic": "Teste",
   "perfil": "Cítrico frutado",
   "copo": "Taça Cocktail",
-  "Categoria": "Vodka",  
+  "categoria": "Vodka",  
   "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Fundo.png",
   "ingredientes": [
     { "qty": "50ml", "name": "Vodka" },

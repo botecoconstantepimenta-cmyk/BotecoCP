@@ -24,6 +24,7 @@
     "nameItalic": "Blue Lagoon",
     "perfil": "Doce cítrico",
     "copo": "Copo Longo",
+    "Categoria":"Vodka",
     "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Lagoa%20Azul.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka ou Cachaça" },

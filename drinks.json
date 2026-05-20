@@ -5,7 +5,7 @@
   "perfil": "Cítrico frutado",
   "copo": "Taça Cocktail",
   "categoria": "Vodka",  
-  "foto": "",
+  "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Cosmopolitan%20Maracuja.png",
   "ingredientes": [
     { "qty": "50ml", "name": "Vodka" },
     { "qty": "15ml", "name": "Suco de Limão" },
@@ -192,7 +192,7 @@
     "perfil": "Doce frutado",
     "copo": "Copo Baixo",
     "categoria": "Cachaça",  
-    "foto": "",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Caipirinha%20Morango.png",
     "ingredientes": [
       { "qty": "75ml", "name": "Vodka ou Cachaça" },
       { "qty": "25ml", "name": "Xarope de Açúcar" },
@@ -288,7 +288,7 @@
     "perfil": "Doce amargo",
     "copo": "Taça Cocktail",
     "categoria": "Vodka",  
-    "foto": "",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Red%20Fly.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "20ml", "name": "Suco de Limão" },
@@ -367,7 +367,7 @@
     "perfil": "Frutado leve",
     "copo": "Copo Longo",
     "categoria": "Gin", 
-    "foto": "",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Maruceva.png",
     "ingredientes": [
       { "qty": "40ml", "name": "Gin" },
       { "qty": "15ml", "name": "Xarope de Açúcar" },
@@ -423,7 +423,7 @@
     "perfil": "Doce picante",
     "copo": "Taça Cocktail",
     "categoria": "Vodka", 
-    "foto": "",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Demonic.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "40ml", "name": "Xarope de Morango" },

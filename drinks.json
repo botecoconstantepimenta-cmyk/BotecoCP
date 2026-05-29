@@ -514,7 +514,7 @@
     "perfil": "Cítrico simples",
     "copo": "Copo Longo",
     "categoria": "Vodka", 
-    "foto": "",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Screwdriver.png",
     "ingredientes": [
       { "qty": "50ml", "name": "Vodka" },
       { "qty": "Top", "name": "Suco de Laranja" }

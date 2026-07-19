@@ -595,5 +595,23 @@
       "Decore o copo e sirva."
     ]
   }
+  {
+    "name": "Negroni",
+    "nameItalic": "Negroni",
+    "perfil": "Amargo",
+    "copo": "Baixo",
+    "categoria": "Campari", 
+    "foto": "",
+    "ingredientes": [
+      { "qty": "30ml", "name": "Campari" },
+      { "qty": "30ml", "name": "Gin" },
+      { "qty": "45ml", "name": "Vermute Docce" }
+    ],
+    "preparo": [
+      "Coloque todos ingredientes na mixing glass.",
+      "Coloque bastante gela, e mexa por 20 segundos",
+      "coagem simples"
+    ]
+  }
 ]
 

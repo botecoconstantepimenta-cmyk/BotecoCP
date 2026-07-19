@@ -600,8 +600,8 @@
     "nameItalic": "Negroni",
     "perfil": "Amargo",
     "copo": "Baixo",
-    "categoria": "Campari", 
-    "foto": "",
+    "categoria": "Diversos", 
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Negroni.png",
     "ingredientes": [
       { "qty": "30ml", "name": "Campari" },
       { "qty": "30ml", "name": "Gin" },

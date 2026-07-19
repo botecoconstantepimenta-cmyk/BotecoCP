@@ -605,7 +605,7 @@
     "ingredientes": [
       { "qty": "30ml", "name": "Campari" },
       { "qty": "30ml", "name": "Gin" },
-      { "qty": "45ml", "name": "Vermute Docce" }
+      { "qty": "30ml", "name": "Vermute Docce" }
     ],
     "preparo": [
       "Coloque todos ingredientes na mixing glass.",

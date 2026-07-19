@@ -612,6 +612,24 @@
       "Coloque bastante gela, e mexa por 20 segundos",
       "coagem simples"
     ]
+    },
+  {
+    "name": "Tequina Pampeana",
+    "nameItalic": "Pampeana",
+    "perfil": "Tropical Refrescante",
+    "copo": "Copo Baixo",
+    "categoria": "Tequila", 
+    "foto": "",
+    "ingredientes": [
+      { "qty": "40ml", "name": "Tequila" },
+      { "qty": "40ml", "name": "Licor de Butiá" },
+      { "qty": "25ml", "name": "Suco de Limão" },
+      { "qty": "15ml", "name": "Xarope de Açúcar"}
+    ],
+    "preparo": [
+      "Coloque todos na coqueteleira.",
+      "Coagem dupla"
+    ]
   }
 ]
 

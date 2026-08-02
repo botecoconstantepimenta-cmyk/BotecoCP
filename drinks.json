@@ -637,7 +637,7 @@
 "perfil": "Doce e aveludado",
 "copo": "Taça Coupette",
 "categoria": "Diversos",
-"foto": "",
+"foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Alexander.png",
 "ingredientes": [
 { "qty": "45ml", "name": "Conhaque" },
 { "qty": "30ml", "name": "Licor de Cacau" },

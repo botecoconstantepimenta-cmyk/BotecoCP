@@ -173,7 +173,7 @@
     "perfil": "Cítrico doce",
     "copo": "Copo Baixo",
     "categoria": "Cachaça",  
-    "foto": "",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Caipirinha.png",
     "ingredientes": [
       { "qty": "75ml", "name": "Vodka ou Cachaça" },
       { "qty": "25ml", "name": "Xarope de Açúcar" },

@@ -631,5 +631,24 @@
       "Coagem dupla"
     ]
   }
+{
+  "name": "Alexander Nutella",
+"nameItalic": "Nutella",
+"perfil": "Doce e aveludado",
+"copo": "Taça Coupette",
+"categoria": "Diversos",
+"foto": "",
+"ingredientes": [
+{ "qty": "45ml", "name": "Conhaque" },
+{ "qty": "30ml", "name": "Licor de Cacau" },
+{ "qty": "30ml", "name": "Creme de Leite" }
+ ],
+"preparo": [
+"Bate todos os ingredientes na coqueteleira.",
+"Passar Nutella na borda da taça",
+"Um pouco de noz-moscada"
+"Coagem dupla"
+ ]
+}
 ]
 

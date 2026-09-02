@@ -632,6 +632,24 @@
     ]
   },
 {
+    "name": "Macunaíma",
+    "nameItalic": "Macunaíma",
+    "perfil": "Cítrico Amargo",
+    "copo": "Copo Baixo",
+    "categoria": "Cachaça", 
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Macunaima.png",
+    "ingredientes": [
+      { "qty": "45ml", "name": "Cachaça" },
+      { "qty": "10ml", "name": "Fernet" },
+      { "qty": "20ml", "name": "Suco de Limão" },
+      { "qty": "25ml", "name": "Xarope de Açúcar"}
+    ],
+    "preparo": [
+      "Bate todos os ingredientes na coqueteleira.",
+      "Coagem dupla"
+    ]
+  },
+  {
   "name": "Alexander Nutella",
 "nameItalic": "Nutella",
 "perfil": "Doce e aveludado",

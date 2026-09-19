@@ -525,41 +525,6 @@
     ]
   },
   {
-    "name": "Black Russian",
-    "nameItalic": "Black Russian",
-    "perfil": "Forte amargo",
-    "copo": "Copo Baixo",
-    "categoria": "Vodka", 
-    "foto": "",
-    "ingredientes": [
-      { "qty": "60ml", "name": "Vodka" },
-      { "qty": "40ml", "name": "Licor de Café" }
-    ],
-    "preparo": [
-      "Monte no copo com gelo.",
-      "Mexa até gelar."
-    ]
-  },
-  {
-    "name": "Jambu Sour",
-    "nameItalic": "Jambu Sour",
-    "perfil": "Cítrico herbal",
-    "copo": "Copo Baixo",
-    "categoria": "Cachaça", 
-    "foto": "",
-    "ingredientes": [
-      { "qty": "60ml", "name": "Cachaça de Jambu" },
-      { "qty": "25ml", "name": "Suco de Limão" },
-      { "qty": "25ml", "name": "Xarope de Mel" },
-      { "qty": "5 colheres chá", "name": "Albumina" }
-    ],
-    "preparo": [
-      "Bata com gelo.",
-      "Retire o gelo e bata novamente.",
-      "Faça dupla coagem."
-    ]
-  },
-  {
     "name": "Gin Tônica",
     "nameItalic": "Gin Tônica",
     "perfil": "Refrescante amargo",
@@ -619,7 +584,7 @@
     "perfil": "Tropical Refrescante",
     "copo": "Copo Baixo",
     "categoria": "Tequila", 
-    "foto": "",
+    "foto": "https://raw.githubusercontent.com/botecoconstantepimenta-cmyk/BotecoCP/refs/heads/main/Encarte_Tequila_Pempeana.png",
     "ingredientes": [
       { "qty": "40ml", "name": "Tequila" },
       { "qty": "40ml", "name": "Licor de Butiá" },
